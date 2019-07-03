@@ -1,0 +1,47 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "backstopjs": "^3.8.8",
+    "browser-sync": "^2.26.5",
+    "cssnext": "^1.8.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-csslint": "^1.0.0",
+    "gulp-file-include": "^1.2.0",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-pngquant": "^4.0.0",
+    "jquery": "^3.4.0",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-properties": "^6.1.0"
+  },
+  "browserslist": [
+    "> 10%",
+    "last 7 versions",
+    "ff > 4",
+    "opera > 9"
+  ],
+  "scripts": {
+    "start": "NODE_ENV=dev gulp start",
+    "build": "NODE_ENV=prod gulp build"
+  },
+  "dependencies": {
+    "gulp-less": "^4.0.1",
+    "less": "^3.9.0",
+    "phantom": "^6.2.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "postcss-units": "^1.1.0"
+  }
+}
